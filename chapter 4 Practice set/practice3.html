@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice set 3</title>
+</head>
+
+<body>
+    <!-- 3. Create an HTML form for a travel website to book a vacation. -->
+    <!-- Travel website form using html forms -->
+    <h1>TRAVEL WEBISTE FORM</h1>
+    <!-- form -->
+    <form action="">
+        <!-- Full name using input text -->
+        <div>
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="please enter your name">
+        </div>
+        <!-- Email usng input email -->
+        <div>
+            <label for="email">Email Adress</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <!-- Phone number using input tel -->
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+        <!-- Travel destination using select -->
+        <div>
+            <label for="destination">Travel destination</label>
+            <select name="destination" id="destination">
+                <option value="Skardu">Skardu</option>
+                <option value="Hunza">Hunza</option>
+                <option value="Muree">Muree</option>
+            </select>
+        </div>
+        <!-- Travel date using input date -->
+        <div>
+            <label for="dates">Travel Dates</label>
+            <input type="date" name="traveldates" id="dates">
+        </div>
+
+        <!-- Number of Travelers using a number field. -->
+        <div>
+            <label for="NOF">Number of Travelers</label>
+            <input type="number" name="numberoftravelers" id="NOF">
+        </div>
+
+        <!-- Package type using radio buttons -->
+        <div>
+            <label>Package Type</label><br>
+            <input type="radio" name="packagetype" id="economy">
+            <label for="economy">Economy</label>
+
+            <input type="radio" name="packagetype" id="business">
+            <label for="business">Business</label>
+        </div>
+
+        <!-- Additional services using checkboxes -->
+        <div>
+            <label for="Additionalservices">Additional services</label><br>
+            <label for="hotel">Hotel</label>
+            <input type="checkbox" name="Additionalservices" id="hotel">
+            <label for="meals">Meals</label>
+            <input type="checkbox" name="Additionalservices" id="meals">
+        </div>
+
+        <!-- Special request using text area -->
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
+        <!-- Submit using submit type -->
+        <label for="submit">Submit</label>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
